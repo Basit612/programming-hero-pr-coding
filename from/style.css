@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  display: flex; /* Added display property */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: darkgray;
+}
+
+.fast, .last, .email, .pass, .button {
+  margin: 4px;
+  padding: 4px;
+  text-align: center;
+  color: darkgray;
+}
+
+.button input {
+  /* Adjusted to target the input inside the .button div */
+  margin: 4px;
+  padding: 4px;
+  text-align: center;
+  color: darkgray;
+}
+
+body {
+  background-image: url(img.jpg);
+  height: 100vh; /* Changed to use viewport height */
+  width: 100vw; /* Changed to use viewport width */
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the background image covers the entire viewport */
+  font-size: 25px;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 15px;
+  padding: 15px;
+  /* height: 100px;
+  width: 100px; */
+  text-align: center;
+  justify-content: center;
+  color: chocolate;
+  display: flex;
+}
+
+.drime {
+  margin: 15%;
+  padding: 15%;
+  /* height: 45px;
+  width: 45px; */
+  justify-self: center;
+  text-align: center;
+  /* align-items: center; */
+  color: floralwhite;
+  font-size: 2rem;
+  font-weight: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  background-color: red;
+  border: 2px solid black;
+  box-shadow: 3px 10px 12px 15px;
+  /* display: flex; */
+}
+
+.nav-img {
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.para {
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  justify-content: end;
+
+}
+
